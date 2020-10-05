@@ -1,0 +1,8 @@
+package-as: DataStore_Achievements
+
+move-folders:
+ DataStore_Achievements/DataStore_Achievements: DataStore_Achievements
+
+ignore:
+ - LICENCE.md
+ - README.md
