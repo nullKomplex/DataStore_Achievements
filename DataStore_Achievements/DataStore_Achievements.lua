@@ -220,7 +220,7 @@ local function OnPlayerAlive()
 	ScanProgress()
 	ScanTabards()
 
-	addon.ThisCharacter.guid = strsub(UnitGUID("player"), 3)	-- get rid at the 0x at the beginning of the string
+	addon.ThisCharacter.guid = UnitGUID("player")	-- get rid at the 0x at the beginning of the string
 end
 
 local function OnAchievementEarned(event, id)
